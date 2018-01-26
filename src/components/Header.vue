@@ -2,8 +2,7 @@
     <header>
       <nav>
         <router-link to="/">主页</router-link>
-        <router-link to="/two">第二页</router-link>
-        <router-link to="/three">第三页</router-link>
+        <router-link to="/two">第二页</router-link>s
       </nav>
     </header>
 </template>

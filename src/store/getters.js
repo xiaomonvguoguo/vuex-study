@@ -1,1 +1,1 @@
-export const num = state => state.num
+export const Num = state => state.num

@@ -1,8 +1,9 @@
-import * as types from './mutations-type'
-const AddNum = function ({commit},num) {
-  commit(types.ADD_NUM,num)
+import * as types from './mutations-types'
+export const AddNum = function ({commit}) {
+  commit(types.ADD_NUM)
 }
 
-const ReduceNum = function ({commit},num) {
-  commit(types.REDUCE_NUM,num)
+export const ReduceNum = function ({commit}) {
+  commit(types.REDUCE_NUM)
 }
+

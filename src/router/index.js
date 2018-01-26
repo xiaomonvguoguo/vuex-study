@@ -3,7 +3,6 @@ import Router from 'vue-router'
 
 import IndexOne  from '@/components/Index'
 import IndexTwo  from '@/components/Index2'
-import IndexThree  from '@/components/Index3'
 
 Vue.use(Router)
 
@@ -18,11 +17,6 @@ export default new Router({
       path: '/two',
       name: 'indexTwo',
       component: IndexTwo
-    },
-    {
-      path: '/three',
-      name: 'indexThree',
-      component: IndexThree
     }
   ]
 })

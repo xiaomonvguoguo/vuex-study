@@ -16,4 +16,3 @@
 > mutations  上面在getters的时候我们提到过改变值的时候不能去直接去页面使用getters来改变值。
 
 > mutations-type 这里管理的主要是因为在actions中我们引用了这个文件，同时在mutations中我们一样引入了这个文件。那么这个文件就代表于我们不直接去进行操作mutations，而是使用了mutations-type变量来进行改变。
-
